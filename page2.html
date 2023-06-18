@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Navigation Bar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+
+  <style>
+    /* Custom styles for the navigation bar */
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .navbar-toggler {
+      border-color: white;
+    }
+
+    /* Custom styles for positioning navbar */
+    .navbar-nav {
+      margin-left: auto;
+    }
+    .navbar-nav .nav-link {
+      margin-right: 20px; /* Adjust the margin value as needed */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <i class="bi bi-file-person-fill "></i>
+        <a class="navbar-brand" href="#">Personal Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" id="#home" href="#home">Home</a> <a href="about.html"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="#about" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="#project" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="#contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+
+    <!-- mobile nav -->
+   
+
+    <!-- image card -->
+
+    <section id="home">
+    <div class="container mb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 mt-5">
+          <div class="card">
+            <img src="images.png" class="card-img-top" alt="self portrait">
+            <div class="card-body">
+              <p class="card-text">Hi, i'm David Ayres. You might remember me from such Projects as Albus Dumbledore tribute page or the portfolio your currently on.
+                As you can see the photo is 100% a self portrait of me.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+
+    <section id="about">
+        <div class="container-lg text-center">
+            <div class="row align-items-center">
+                <h3>Hi a little bit about me</h3>
+                <p>Obviously You already know what i look like with my wonderful self portrait above.</p>
+                <p>Some things about me is i like 
+                <a href="http://127.0.0.1:5500/tribute/index.html" target="_blank">Harry Potter</a></p>
+                <p>I also have a lot of interest such as</p>
+                <ul style="list-style: none;">
+                    <li> <a href="https://thedavidayrescollection.com/" target="_blank">Video Games</a></li>
+                    <li>Football</li>
+                    <li>Web Development</li>
+                    <li>Hiking</li>
+                    <li>Yoga</li>
+                </ul>
+                <p>if u want to learn more about me click this <a href="about.html" target="_blank">Link</a>. This is a more detailed about me section</p>
+                <hr>
+            </div>
+        </div>
+          
+
+    </section>
+
+
+    <section id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="Screenshot 2023-06-13 112943.png" class="card-img-top" alt="screenshot of codeacademy project that i built" height="250px" width="">
+              <div class="card-body">
+                <h5 class="card-title">Excursion Project</h5>
+                <p class="card-text">Witness the brilliance of the Excursion Project, a stunning creation born from my dedication to mastering HTML, CSS, and Bootstrap. Immerse yourself in this exact replica I meticulously crafted based on online courses. Explore the seamless integration of skills as you navigate this captivating project.</p>
+                <br>
+                <br>
+                <br>
+                <a href="http://127.0.0.1:5500/Excursion/index.html" target="_blank" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="Screenshot 2023-06-13 113357.png" class="card-img-top" alt="Tribute to Albus Dumbledore" height="250px">
+              <div class="card-body">
+                <h5 class="card-title">Dumbledore Tribute Page</h5>
+                <p class="card-text">Prepare to be enchanted by the Dumbledore Tribute Page, an homage to one of the most iconic characters in Harry Potter and beyond. Delve into my passion for storytelling as I meticulously crafted this tribute with HTML and CSS. Immerse yourself in the world of Dumbledore and experience the magic firsthand.</p>
+                <br>
+                <br>
+                <a href="http://127.0.0.1:5500/tribute/index.html" target="_blank" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="trombonepic.png" class="card-img-top" alt="..." height="250px">
+              <div class="card-body" height>
+                <h5 class="card-title">Trombone Business Project</h5>
+                <p class="card-text">Enter the world of the Trombone Business Project, a masterpiece born from my dedication to honing my HTML, CSS, and Bootstrap skills. Discover a unique twist on the original concept as I expertly crafted this project based on online courses. Immerse yourself in the harmonious blend of creativity and technical expertise.</p>
+                <br>
+                <br>
+                <a href="http://127.0.0.1:5500/trombone.html" target="_blank" class="btn btn-primary">Visit Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="card mb-3">
+            <img src="kindlepro.png" class="card-img-top" alt="kindlebook" height="250px">
+            <div class="card-body">
+              <h5 class="card-title">Trombone Business Project</h5>
+              <p class="card-text">This project was from one of the many online courses I've done on HTML, CSS, and Bootstrap. I built a clone of what they suggested but changed certain aspects.</p>
+              <br>
+              <a href="http://127.0.0.1:5500/bootsrtap/index.html" target="_blank" class="btn btn-primary">Visit Project</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-5">
+          <div class="card mb-3">
+            <img src="trombonepic.png" class="card-img-top" alt="..." height="250px">
+            <div class="card-body">
+              <h5 class="card-title">Trombone Business Project</h5>
+              <p class="card-text">This project was from one of the many online courses I've done on HTML, CSS, and Bootstrap. I built a clone of what they suggested but changed certain aspects.</p>
+              <br>
+              <a href="http://127.0.0.1:5500/trombone.html" target="_blank" class="btn btn-primary">Visit Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+    </section>
+
+
+    <section id="contact" class="d-flex justify-content-center align-items-center">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card" style="width: 18rem;">
+             <div class="card-head d-flex justify-content-center">
+    <h3>All my Links</h3>
+  </div>
+  <ul class="list-group list-group-flush d-flex justify-content-center">
+   <a href="https://twitter.com/davidishere19" target="_blank"><li class="list-group-item d-flex justify-content-center">Twitter</li></a>
+   <a href="https://github.com/" target="_blank"> <li class="list-group-item d-flex justify-content-center">GitHub</li></a>
+    <a href="https://thedavidayrescollection.com/" target="_blank"><li class="list-group-item d-flex justify-content-center">My online blog</li></a>
+  </ul>
+  <div class="card-footer d-flex justify-content-center">
+    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><li class="list-group-item d-flex justify-content-center">Email me</li></a>
+  </div>
+</div>
+          
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+    <script>
+        // Smooth scrolling functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+      
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-pzjwue06T2Ith9liOcso9abDf9w+Iz4dsZ+qw/hodBaIvF9D43T5hprUpejOo5yf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
